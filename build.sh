@@ -93,6 +93,7 @@ case $SDK_VERSION in
   10.9*) TARGET=darwin13; X86_64H_SUPPORTED=1; ;;
   10.10*) TARGET=darwin14; X86_64H_SUPPORTED=1; ;;
   10.11*) TARGET=darwin15; X86_64H_SUPPORTED=1; ;;
+  10.12*) TARGET=darwin16; X86_64H_SUPPORTED=1; ;;
   *) echo "Invalid SDK Version" && exit 1 ;;
 esac
 
